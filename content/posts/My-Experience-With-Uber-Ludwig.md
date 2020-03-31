@@ -1,7 +1,7 @@
 +++
 title = "My Experience With Uber Ludwig"
 date = 2020-03-29T15:42:50-04:00
-draft = true
+draft = false
 description = "Sharing my experience using Uber Ludwig"
 type = ["posts","post"]
 tags = [
@@ -50,9 +50,12 @@ Or if you will need cross-platform support, dealing with multiple data types, yo
 ```python
  $ pip install ludwig[full]
 ```
+Once the installation is complete, you will be able to use the ludwig application (in essence ludwig cli).
 
 To be clear, all of this are well documented in [Ludwig's](https://uber.github.io/ludwig/getting_started/) website. But this is my experience following that and as user of the toolbox, see how simple it is. 
 
 ### Experiment:
-In this blog, I will use ludwig's toolbox to classify emotions with facial emotion recognition. The [dataset](https://github.com/microsoft/FERPlus) can be downloaded from the Github repository. The toolbox necessitates use of CSV file as the dataset, and I could'nt figure a way around it yet. 
+The toolbox necessitates use of CSV file as the dataset, and I could'nt figure a way around it yet. I will be using [Neural Machine translation dataset](https://github.com/jatinmandav/Neural-Machine-Translation) and will see what sort of meaningful insights ludwig provides.
 
+
+{{< figure src="/media/snip1.png" title="ludwig help" >}}

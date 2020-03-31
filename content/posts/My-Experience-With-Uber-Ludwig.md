@@ -58,4 +58,4 @@ To be clear, all of this are well documented in [Ludwig's](https://uber.github.i
 The toolbox necessitates use of CSV file as the dataset, and I could'nt figure a way around it yet. I will be using [Neural Machine translation dataset](https://github.com/jatinmandav/Neural-Machine-Translation) and will see what sort of meaningful insights ludwig provides.
 
 
-{{< figure src="/media/snip1.png" title="ludwig help" >}}
+{{< image src="/img/snip1.PNG" alt="ludwig help" position="center" style="border-radius: 8px;" >}}
